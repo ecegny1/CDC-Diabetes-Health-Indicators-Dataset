@@ -51,47 +51,5 @@ pip install -r requirements.txt
 jupyter notebook diabetes.ipynb
 ```
 
-
-Tabii! İşte verdiğiniz GitHub bağlantısındaki dosya için bir README dosyası önerisi:
-
-CDC Diabetes Health Indicators Dataset
-Bu proje, CDC Diabetes Health Indicators Dataset kullanarak diyabet hastalığının sağlık göstergeleri üzerinde analiz yapmaktadır. Proje, diyabet risk faktörlerini ve sağlık göstergelerini incelemek için veri bilimsel teknikler kullanarak modelleme yapmayı amaçlamaktadır.
-
-Proje İçeriği
-Bu projede, CDC tarafından sağlanan diyabetle ilgili sağlık göstergeleri veri seti kullanılmıştır. Veri seti, diyabetin toplum üzerindeki etkilerini anlamaya yardımcı olacak sağlık bilgileri sunmaktadır.
-
-İçerik
-diabetes.ipynb: Projenin ana Python kodu. Bu dosya, veri setinin yüklenmesi, temizlenmesi, analiz edilmesi ve modelin oluşturulması süreçlerini içerir.
-Data: (Eğer projede yer alıyorsa) Veri seti ve diğer ilgili dosyalar.
-Kullanılan Yöntemler
-Veri Ön İşleme: Eksik verilerin giderilmesi, kategorik verilerin dönüştürülmesi ve standartlaştırma.
-Keşifsel Veri Analizi (EDA): Veri setindeki ilişkilerin keşfi ve görselleştirme.
-Makine Öğrenmesi: Diyabet tahmini için sınıflandırma algoritmalarının uygulanması.
-Gereksinimler
-Projeyi çalıştırabilmek için aşağıdaki Python kütüphanelerine ihtiyacınız olacaktır:
-
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-Projede yer alan tüm gereksinimleri yüklemek için aşağıdaki komutla gerekli kütüphaneleri kurabilirsiniz:
-
-bash
-Kodu kopyala
-pip install -r requirements.txt
-Kullanım
-Bu projeyi bilgisayarınıza klonlayın:
-
-bash
-Kodu kopyala
-git clone https://github.com/ecegny1/CDC-Diabetes-Health-Indicators-Dataset.git
-Gerekli kütüphaneleri yüklemek için requirements.txt dosyasını kullanın:
-
-bash
-Kodu kopyala
-pip install -r requirements.txt
-Ana notebook dosyasını çalıştırarak projeyi başlatabilirsiniz:
-
 # Sonuçlar
 Bu proje, diyabetin sağlık göstergeleri üzerindeki etkilerini incelemekte ve diyabet riski hakkında tahminler yapmak için makine öğrenmesi modellerini kullanmaktadır. Sonuçlar, diyabetin önlenmesi ve yönetilmesi için sağlık politikaları geliştirmeye yardımcı olabilecek bilgiler sunabilir.
